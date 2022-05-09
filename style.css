@@ -1,0 +1,42 @@
+body {
+    background-color: blueviolet;
+}
+
+.box {
+    border: 5px solid;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 2em;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: greenyellow;
+    }
+}
+@media (min-width: 900px) {
+    .container {
+        display: flex;
+    }
+    body {
+        background-color: green;
+    }
+}
+
+.small {
+    background-color: darkgoldenrod;
+}
+
+.medium {
+    background-color: brown;
+
+}
+
+.large {
+    background-color: chocolate;
+}
+
+.contact {
+    background-color: bisque;
+
+}
